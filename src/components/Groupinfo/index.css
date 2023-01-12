@@ -1,0 +1,17 @@
+
+.group-data {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.people-container {
+    display: flex;
+}
+
+.icon {
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 5px;
+}

@@ -1,0 +1,70 @@
+.list-item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name {
+    display: flex;
+
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profile-pic {
+    border-radius: 15px;
+    background-color: azure;
+    max-height: 40px;
+    min-height: 20px;
+    min-width: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.time {
+    color: gray;
+    font-size: 10px;
+    margin: 10px;
+}
+
+.likes-count {
+    color: crimson;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.like-button {
+    color: white;
+    min-height: 13px;
+    min-width: 19px;
+
+    background-color: blue;
+    max-height: 10px;
+    max-width: 10px;
+}
+
+.like {
+    max-height: 30px;
+    max-width: 35px;
+    border: none;
+    margin-top: 15px;
+}
+
+.msg-like-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.msg {
+    color: rgb(18, 19, 19);
+    font-weight: 18px;
+
+}

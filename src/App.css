@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+
+.app-container {
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-box {
+  min-height: 80vh;
+  background-color: #f7eeed;
+  min-height: 80vh;
+  min-height: 700px;
+  padding: 10px;
+  border-radius: 8px;
+
+}
+
+.msgs-container {
+  min-height: 600px;
+  min-width: 400px;
+}
+
+.input-container {
+  border: 1px solid limegreen;
+  min-height: 30px;
+  min-width: 89px;
+  border-radius: 5px;
+}
+
+.smile {
+  color: blueviolet;
+  min-height: 20px;
+  min-width: 20px;
+  background-color: white;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+}
+
+.input-button-container {
+  display: flex;
+}
+
+.send-button {
+  color: white;
+  border-radius: 8px;
+  background-color: blue;
+  
+}
+
+.input-element {
+  border: none;
+  min-width: 180px;
+  min-height: 30px;
+}
+
+.picker-container {
+
+  margin-left: 380px;
+  position: relative;
+  width: 300px;
+}
